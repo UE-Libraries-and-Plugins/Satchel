@@ -1,0 +1,41 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Satchel",
+	"Description": "An inventory library",
+	"Category": "Other",
+	"CreatedBy": "Lorenzo Torelli",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Satchel",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name" : "LilHelper",
+			"Enabled" : true
+		},
+		{
+			"Name" : "GameplayAbilities",
+			"Enabled" : true
+		},
+		{
+			"Name" : "UMGCommon",
+			"Enabled" : true
+		},
+		  {
+			"Name" : "Context",
+			"Enabled" : true
+		  }
+	]
+}
